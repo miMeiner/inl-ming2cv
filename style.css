@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    width: 100vw;
+    background-color: black;
+    background-image: url("./resources/space-background-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #89CFF0;
+
+
+}
+.front-page {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font;
+} 
+.front-page h1 {
+    
+} 
+.skillsets {
+    background-color: blueviolet;
+}
+.projects {
+    background-color: blue;
+}
+.about-me {
+    background-color: burlywood;
+}
+.contact {
+    background-color: red;
+}
+div {
+    height: 1000px;
+}
