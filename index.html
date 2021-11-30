@@ -5,57 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reusable.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/skillsets.css">
+    <link rel="stylesheet" href="./CSS/projects.css">
+    <link rel="stylesheet" href="./CSS/aboutme.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/reusable.css">
     <script src="./main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f25592f3c.js" crossorigin="anonymous"></script>
     <title>Christian's CV</title>
 </head>
 
 <body>
-    <div class="front-page">
-        <div class="">
-            <div class="">
-                <p><b class="hello-text">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
+    <div class="front-page pad-5">
+        <div class="front-page-top flex space-between align-center">
+            <div class="hello-text flex column">
+                <p><b class="hello">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
                     I am a Front End Developer based in Borås, <b>Sweden</b>. </p>
+                    <div class="front-page-buttons">
+                        <a href="#skillsets">Skill sets</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#about-me">About me</a>
+                    </div>
             </div>
-            <div class="">
+            <div class="profile-pic-div flex column center">
                 <img class="profile-picture" src="./resources/selfiesq.png" alt="picture of me">
+                <div class="link-icons">
+                    <a href="https://github.com/miMeiner"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/christianmeiner/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.snapchat.com/add/chrillis?share_id=QThBRDY5&locale=sv_US"><i class="fab fa-snapchat"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="front-page-buttons">
-            <a href="">Skill sets</a>
-            <a href="">Projects</a>
-            <a href="">About me</a>
         </div>
     </div>
-    <div class="skillsets">
-        <div class="skillsets-title">
+    <div id="skillsets" class="skillsets pad-5">
+        <div class="skillsets-title flex justify-center">
             <p>What <b class="skillset-text">skillsets</b> do I have to offer? </p>
         </div>
-        <div class="skillsets-main-content">
-            <div class="skillsets-left-side">
+        <div class="skillsets-main-content flex space-between">
+            <div class="skillsets-left-side flex align-center">
                 <p>
                     Being a first year student of Front End Development my skillsets are somewhat limited.
                     However, since I am very ambitious and consider myself a fast learner I have no doubt that I will be
                     an asset to any team I end up taking part of.
                 </p>
             </div>
-            <div class="skillsets-right-side">
-
+            <div class="skillsets-right-side flex column">
+                <label for="html5">HTML5</label>
+                <progress id="html5" value="90" max="100">90%</progress>
+                <label for="css3">CSS3</label>
+                <progress id="css3" value="85" max="100">85%</progress>
+                <label for="javascript">JavaScrips</label>
+                <progress id="javascript" value="70" max="100">70%</progress>
+                <label for="uiux">UI/UX Design</label>
+                <progress id="uiux" value="80" max="100">80%</progress>
             </div>
         </div>
-        <div class="skilsets-filler-content">
+        <div class="skilsets-filler-content flex center">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum commodi corporis nihil perspiciatis
                 voluptates quae dolorem fugit, incidunt quos iure quidem tenetur rem praesentium delectus numquam! Ab
                 dignissimos ex error.</p>
         </div>
     </div>
-    <div class="projects">
+    <div id="projects" class="projects pad-5">
         <div class="projects-title"> Some of my previous <i>projects</i>.</div>
         <div class="projects-first-row">
             <img src="./resources/gymshark.png" alt="gymshark">
@@ -68,12 +85,67 @@
             <img src="./resources/spotify.png" alt="spotify">
         </div>
     </div>
-    <div class="about-me">
-        I like turtles
+    <div id="about-me" class="about-me pad-5 flex row space-around">
+        <div class="aboutme-left flex column center">
+            <h2>Hi, I'm Christian Meiner.</h2>
+            <p>
+                I'm a 24 year old Front End Developer student born and raised in Borås, Sweden.
+                After taking a stray course of Web Development in the early months of 2020 I quickly came to the
+                realization
+                that this is what I want to do with my life.
+                Other than my burning interest for anything tech related I have a few hobbies that I love pouring a
+                bunch of
+                time into.
+            </p>
+            <p>
+                I'd like to consider myself a fast learner as well as a hard worker and I often find myself pouring my
+                heart
+                and soul into what ever I find interest in.
+                If you'd like to get to know me even better, feel free to contact me below.
+            </p>
+        </div>
+        <div class="aboutme-right flex center">
+            <ul>
+                <h3>Some of my interests include: </h3>
+                <li><i class="fas fa-utensils fa-fw"></i>Cooking and especially eating food.</li>
+                <li><i class="fas fa-dumbbell fa-fw"></i>Working out.</li>
+                <li><i class="fas fa-user-friends fa-fw"></i>Hanging out with friends.</li>
+                <li><i class="fas fa-gamepad fa-fw"></i>Gaming.</li>
+                <li><i class="fas fa-plane fa-fw"></i>Traveling.</li>
+            </ul>
+        </div>
 
     </div>
-    <div class="contact">
-        contact me here
+    <div id="contact" class="contact pad-5 flex column">
+        <div class="contact-title">
+            <p> Contact me <b>below</b>.</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form"> 
+                <form action="">
+                    <fieldset>
+                        <div class="form-field">
+                            <input type="text" name="contact-name" placeholder="Name">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="contact-email" placeholder="Email">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="contact-company" placeholder="Company">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="contact-message" placeholder="Message">
+                        </div>
+                        <div class="form-field">
+                            <button>Send</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="contact-info">
+
+            </div>
+        </div>
     </div>
 </body>
 

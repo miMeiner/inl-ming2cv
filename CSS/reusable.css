@@ -1,11 +1,14 @@
 
 /*REUSABLE CLASSES*/
-.flex {display:flex;}
+.flex {display: flex;}
 .justify-center {justify-content: center;}
 .align-center {align-items: center;}
+.center {justify-content: center; align-items: center;}
 .row {flex-direction: row;}
 .column {flex-direction: column;}
 .padded {padding: 1rem;}
 .margined {margin: 1rem;}
 .space-evenly {justify-content: space-evenly;}
 .space-between {justify-content: space-between;}
+.space-around {justify-content: space-around;}
+.pad-5 {padding: 5rem; height: 100vh;}

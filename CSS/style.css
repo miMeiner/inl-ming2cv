@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    width: 100vw;
+    background-color: black;
+    background-image: url("../resources/space-background-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #89CFF0;
+
+}
+.front-page {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    height: 100vh;
+} 
+
+.profile-picture  {
+    margin-top: 10rem;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.hello-text {
+    padding-top: 10rem;
+}
+
+.hello  {
+    color: #EEAACC;
+}
+
+.link-icons {
+    margin-top: 1rem;
+}
+
+.link-icons a {
+    color: #89CFF0;
+}
+
+.front-page-buttons {
+    margin-top: 13rem;
+}
+
+.front-page-buttons a {
+    color: #89CFF0;
+    text-decoration: none;
+    border: #89CFF0 solid 5px;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+
+

@@ -1,0 +1,38 @@
+.skillsets {
+    font-family: 'Inter', sans-serif;
+}
+.skillset-text {
+    color: #EEAACC;
+}
+
+.skillsets {
+    background-color: #171717;
+}
+
+.skillsets-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.skillsets-left-side {
+    width: 50%;
+    font-size: 2.2rem;
+}
+.skillsets-right-side {
+    width: 45%;
+}
+label {
+    margin-top: 1rem;
+}
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 1.5rem;
+}
+
+.skilsets-filler-content {
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
