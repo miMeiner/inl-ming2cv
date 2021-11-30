@@ -1,7 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
+  
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     width: 100vw;
@@ -11,28 +20,55 @@ body {
     background-repeat: no-repeat;
     color: #89CFF0;
 
-
 }
 .front-page {
     font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    font;
+    font-weight: 400;
+    font-size: 5rem;
 } 
-.front-page h1 {
-    
-} 
+
+.front-page {
+    padding: 5rem;
+}
+.top-left-side {
+    flex-basis: 66%;
+}
+.top-right-side {
+    flex-basis: 34%;
+}
+
+.profile-picture  {
+    border-radius: 50%;
+    width: 400px;
+}
+
+.hello-text  {
+    color: #EEAACC;
+}
+
+.skillset-text {
+    color: #EEAACC;
+}
+
 .skillsets {
     background-color: blueviolet;
 }
+
 .projects {
     background-color: blue;
 }
+
+.projects-first-row img {
+    width: 400px;
+}
+.projects-second-row img {
+    width: 400px;
+}
+
 .about-me {
     background-color: burlywood;
 }
+
 .contact {
     background-color: red;
-}
-div {
-    height: 1000px;
 }

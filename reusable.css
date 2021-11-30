@@ -1,0 +1,11 @@
+
+/*REUSABLE CLASSES*/
+.flex {display:flex;}
+.justify-center {justify-content: center;}
+.align-center {align-items: center;}
+.row {flex-direction: row;}
+.column {flex-direction: column;}
+.padded {padding: 1rem;}
+.margined {margin: 1rem;}
+.space-evenly {justify-content: space-evenly;}
+.space-between {justify-content: space-between;}
