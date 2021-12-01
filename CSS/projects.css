@@ -1,5 +1,5 @@
 .projects {
-    background-color: blue;
+    background-color: #171717;
 }
 
 .projects-title {
@@ -10,10 +10,13 @@
     text-align: center;
 }
 
-.projects-first-row img {
+.projects-row img {
     width: 30%;
     margin-bottom: 3rem;
 }
-.projects-second-row img {
-    width: 30%;
+
+.projects-info {
+    width: 40%;
+    text-align: center;
+    margin: auto;
 }

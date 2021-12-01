@@ -17,8 +17,9 @@ body {
     margin: auto;
     background-color: black;
     background-image: url("../resources/space-background-image.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #89CFF0;
 
 }

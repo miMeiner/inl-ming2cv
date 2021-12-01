@@ -1,5 +1,4 @@
 .contact {
-    background-color: #171717;
 }
 .contact b {
     color: #EEAACC;
@@ -10,11 +9,9 @@
     margin-bottom: 2rem;
 }
 
-.contact-content {
-
-}
 input, button {
     height: 5rem;
     width: 30rem;
+    margin: .5rem 0;
     background-color: none;
 }

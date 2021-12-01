@@ -2,16 +2,9 @@
     background-color: #171717;
 }
 
-
-
-
 .about-me-title {
     font-size: 3rem;
-    margin-bottom: 2rem;
-}
-
-.aboutme-right {
-   width: 50%;
+    margin-bottom: 3rem;
 }
 
 .aboutme-right img {
@@ -19,14 +12,25 @@
     border: 3px solid #89CFF0;
     margin-bottom: 2rem;
 }
+
 .aboutme-left {
+    line-height: 2.5;
+    width: 40%;
 }
+
+.aboutme-right {
+   width: 40%;
+}
+
 
 .aboutme-left p {
     margin: 1rem 0;
 }
 
-.about-m
+h2 {
+    margin-bottom: 2rem;
+}
+
 
 li {
     list-style-type: none;
