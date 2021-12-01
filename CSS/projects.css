@@ -21,6 +21,14 @@
     margin: auto;
 }
 
+@media screen and (max-width: 900px) {
+    .projects-info {
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     .projects-title {
         font-size: 2rem;

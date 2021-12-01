@@ -6,6 +6,7 @@
 .skillsets-title {
     font-size: 3rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .skillsets-left-side {
@@ -35,10 +36,21 @@ progress {
     font-size: 1.8rem;
 }
 
+@media screen and (max-width: 900px) {
+    .skillsets-left-side {
+        font-size: 1.6rem;
+    }
+    .skillsets-filler-content {
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+}
+
+
+
 @media screen and (max-width: 600px) {
     .skillsets-title {
         font-size: 2rem;
-        text-align: center;    
     }
     .skillsets-main-content {
         flex-direction: column-reverse;

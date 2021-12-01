@@ -17,6 +17,7 @@ input, textarea, button {
     border: none;
     color: #89CFF0;
     font-size: 2rem;
+    resize: vertical;
 }
 
 button {
@@ -48,5 +49,6 @@ button:hover {
     }
     input, textarea, button {
         width: 90vw;
+        font-size: 1rem;
     }
 }
