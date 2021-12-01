@@ -12,6 +12,9 @@
     border: 3px solid #89CFF0;
     margin-bottom: 2rem;
 }
+.about-me-content {
+    flex-direction: row;
+}
 
 .aboutme-left {
     line-height: 2.5;
@@ -29,8 +32,6 @@
 h2 {
     margin-bottom: 2rem;
 }
-
-
 li {
     list-style-type: none;
 }
@@ -40,4 +41,30 @@ li i {
 }
 
 @media screen and (max-width: 600px) {
+    .about-me {
+        height: auto;
+    }
+    .about-me-title {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .about-me-content {
+        flex-direction: column;
+    }
+    .aboutme-left {
+        width: 90%;
+        margin: auto;
+    } 
+    h2 {
+        font-size: 1.23rem;
+        margin-bottom: 0;
+    }
+    .aboutme-right {
+        width: 90%;
+        margin: auto;
+    }
+    .aboutme-right ul {
+        font-size: 0.85rem;
+    }
 }
