@@ -20,3 +20,21 @@
     text-align: center;
     margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .projects-title {
+        font-size: 2rem;
+        text-align: center;    
+    }
+    .projects-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-row img {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .projects-info {
+        width: 90%;
+    }
+}

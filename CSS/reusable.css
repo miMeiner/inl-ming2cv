@@ -6,11 +6,26 @@
 .space-between {justify-content: space-between;}
 .space-around {justify-content: space-around;}
 .align-center {align-items: center;}
-.align-c-between {align-content: space-between;}
 .center {justify-content: center; align-items: center;}
 .row {flex-direction: row;}
 .column {flex-direction: column;}
-.padded {padding: 1rem;}
-.margined {margin: 1rem;}
 .pad-5 {padding: 5rem;}
 .pink {color: #EEAACC;}
+
+@media screen and (max-width: 1300px) {
+    .pad-5 {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .pad-5 {
+        padding: 3rem;
+    }
+}
+   
+@media screen and (max-width: 600px) {
+    .pad-5 {
+        padding: 1rem;
+    }
+}

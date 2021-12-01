@@ -5,14 +5,16 @@
   margin: 0;
   padding: 0;
 }
+
 html {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
+    word-wrap: break-word;
     width: 70vw;
     margin: auto;
     background-color: black;
@@ -23,8 +25,8 @@ body {
     color: #89CFF0;
 
 }
+
 .front-page {
-    width: 70vw;
     height: 100vh;
     margin: auto;
     font-family: 'Inter', sans-serif;
@@ -32,9 +34,16 @@ body {
     font-size: 3rem;
 } 
 
+.hello-text {
+}
+
+.profile-pic-div {
+    flex-grow: 0;
+}
+
 .profile-picture  {
     border-radius: 50%;
-    width: 70%;
+    max-width: 70%;
 }
 
 .link-icons {
@@ -50,7 +59,7 @@ body {
 }
 
 .front-page-buttons a {
-    font-size: 2rem;
+    font-size:2rem;
     color: #89CFF0;
     text-decoration: none;
     border: #89CFF0 solid 4px;
@@ -58,5 +67,113 @@ body {
     padding: .5rem 1rem;
 }
 
+footer {
+    width: 50%;
+    margin: auto;
+    border-top: 2px solid #89CFF0;
+    padding-bottom: 1rem;
+}
 
+.footer-content a {
+    color: #89CFF0;
+}
 
+.back-to-top {
+    position: fixed;
+    bottom: 1%;
+    right: 5%;
+    border: 6px solid #89CFF0;
+    border-radius: 5px;
+    padding: .5rem 2rem;
+}
+
+.back-to-top a {
+    font-size: 2rem;
+    color: #89CFF0;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1800px) {
+    body {
+        width: 80vw;
+    }
+    .hello-text p {
+        font-size: 2rem;
+    }
+    .front-page-buttons a {
+        font-size: 1.5rem;
+        border: #89CFF0 solid 3px;
+    }
+    .back-to-top {
+        right: 4%;
+        border: 4px solid #89CFF0;
+    }
+} 
+
+@media screen and (max-width: 1500px) {
+    .front-page-buttons a {
+        font-size: 1rem;
+        border: #89CFF0 solid 2px;
+
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        width: 100vw;
+    }
+    .hello-text {
+        font-size: 2rem;
+    }
+    .hello-text p {
+        margin-bottom: 1rem;
+    }
+    .front-page {
+        height: auto;
+    }
+    .front-page-top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .front-page-buttons {
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        margin-top: 0;
+    }
+    .front-page-buttons a {
+        margin-bottom: 1rem;
+    }
+    .profile-picture {
+        width: 50%;
+    }
+    .back-to-top {
+        bottom: 0;
+        right: 0;
+        border: 4px solid #89CFF0;
+        padding: .5rem 1.5rem;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .back-to-top {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 90%;
+    }
+    .footer-content {
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+}

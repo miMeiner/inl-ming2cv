@@ -1,8 +1,5 @@
 .skillsets {
     font-family: 'Inter', sans-serif;
-}
-
-.skillsets {
     background-color: #171717;
 }
 
@@ -36,4 +33,27 @@ progress {
     margin: auto;
     margin-top: 5rem;
     font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .skillsets-title {
+        font-size: 2rem;
+        text-align: center;    
+    }
+    .skillsets-main-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .skillsets-right-side {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .skillsets-left-side {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .skillsets-filler-content p {
+        display: none;
+    }
 }

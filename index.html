@@ -20,9 +20,8 @@
     <script src="https://kit.fontawesome.com/1f25592f3c.js" crossorigin="anonymous"></script>
     <title>Christian's CV</title>
 </head>
-
 <body>
-    <div class="front-page pad-5 flex center">
+    <div id="front-page" class="front-page pad-5 flex center">
         <div class="front-page-top flex space-between align-center">
             <div class="hello-text flex column">
                 <p><b class="pink">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
@@ -31,6 +30,7 @@
                         <a href="#skillsets">Skill sets</a>
                         <a href="#projects">Projects</a>
                         <a href="#about-me">About me</a>
+                        <a href="#contact">Contact</a>
                     </div>
             </div>
             <div class="profile-pic-div flex column center">
@@ -127,13 +127,14 @@
         </div>
 
     </div>
-    <div id="contact" class="contact pad-5 flex column">
+    <div id="contact" class="contact pad-5 flex column center">
         <div class="contact-title flex justify-center">
             <p>Contact me <b>below</b>.</p>
         </div>
         <div class="contact-content flex justify-center">
             <div class="contact-form"> 
                 <form action="">
+                    <fieldset>
                         <div class="form-field">
                             <input type="text" name="contact-name" placeholder="Name">
                         </div>
@@ -143,19 +144,29 @@
                         <div class="form-field">
                             <input type="text" name="contact-company" placeholder="Company">
                         </div>
-                        <div class="form-field">
-                            <input type="text" name="contact-message" placeholder="Message">
+                        <div class="form-field message-field">
+                            <textarea name="contact-message" placeholder="Message"></textarea>
                         </div>
                         <div class="form-field">
                             <button>Send</button>
                         </div>
+                    </fieldset>
                 </form>
             </div>
         </div>
     </div>
     <footer>
-
+        <div class="footer-content flex justify-center padded space-evenly">
+            <a href="mailto:Christian.Meiner@medieinstitutet.se">Christian.Meiner@medieinstitutet.se</a>
+          <p class="pink">
+              © Christian Meiner 2021.
+            </p> 
+        </div>
+        <div class="back-to-top">
+            <a href="#front-page">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
     </footer>
 </body>
-
 </html>
