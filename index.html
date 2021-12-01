@@ -22,12 +22,12 @@
 </head>
 
 <body>
-    <div class="front-page pad-5">
+    <div class="front-page pad-5 flex center">
         <div class="front-page-top flex space-between align-center">
             <div class="hello-text flex column">
-                <p><b class="hello">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
+                <p><b class="pink">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
                     I am a Front End Developer based in Borås, <b>Sweden</b>. </p>
-                    <div class="front-page-buttons">
+                    <div class="front-page-buttons flex space-around">
                         <a href="#skillsets">Skill sets</a>
                         <a href="#projects">Projects</a>
                         <a href="#about-me">About me</a>
@@ -45,7 +45,7 @@
     </div>
     <div id="skillsets" class="skillsets pad-5">
         <div class="skillsets-title flex justify-center">
-            <p>What <b class="skillset-text">skillsets</b> do I have to offer? </p>
+            <p>What <b class="pink">skill sets</b> do I have to offer? </p>
         </div>
         <div class="skillsets-main-content flex space-between">
             <div class="skillsets-left-side flex align-center">
@@ -60,70 +60,80 @@
                 <progress id="html5" value="90" max="100">90%</progress>
                 <label for="css3">CSS3</label>
                 <progress id="css3" value="85" max="100">85%</progress>
-                <label for="javascript">JavaScrips</label>
+                <label for="javascript">JavaScript</label>
                 <progress id="javascript" value="70" max="100">70%</progress>
                 <label for="uiux">UI/UX Design</label>
                 <progress id="uiux" value="80" max="100">80%</progress>
             </div>
         </div>
-        <div class="skilsets-filler-content flex center">
+        <div class="skillsets-filler-content flex center">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum commodi corporis nihil perspiciatis
                 voluptates quae dolorem fugit, incidunt quos iure quidem tenetur rem praesentium delectus numquam! Ab
                 dignissimos ex error.</p>
         </div>
     </div>
     <div id="projects" class="projects pad-5">
-        <div class="projects-title"> Some of my previous <i>projects</i>.</div>
-        <div class="projects-first-row">
+        <div class="projects-title flex justify-center"> 
+            <p>Some of my previous <i class="pink">projects.</i></p>
+        </div>
+        <div class="projects-first-row flex space-around">
             <img src="./resources/gymshark.png" alt="gymshark">
             <img src="./resources/inet.png" alt="inet">
             <img src="./resources/discord.png" alt="discord">
         </div>
-        <div class="projects-second-row">
+        <div class="projects-second-row flex space-around">
             <img src="./resources/outnorth.png" alt="outnorth">
             <img src="./resources/netflix.png" alt="netflix">
             <img src="./resources/spotify.png" alt="spotify">
         </div>
-    </div>
-    <div id="about-me" class="about-me pad-5 flex row space-around">
-        <div class="aboutme-left flex column center">
-            <h2>Hi, I'm Christian Meiner.</h2>
-            <p>
-                I'm a 24 year old Front End Developer student born and raised in Borås, Sweden.
-                After taking a stray course of Web Development in the early months of 2020 I quickly came to the
-                realization
-                that this is what I want to do with my life.
-                Other than my burning interest for anything tech related I have a few hobbies that I love pouring a
-                bunch of
-                time into.
-            </p>
-            <p>
-                I'd like to consider myself a fast learner as well as a hard worker and I often find myself pouring my
-                heart
-                and soul into what ever I find interest in.
-                If you'd like to get to know me even better, feel free to contact me below.
-            </p>
+        <div class="projects-info">
+            <p>In the spots above is where I will put all my </p>
         </div>
-        <div class="aboutme-right flex center">
-            <ul>
-                <h3>Some of my interests include: </h3>
-                <li><i class="fas fa-utensils fa-fw"></i>Cooking and especially eating food.</li>
-                <li><i class="fas fa-dumbbell fa-fw"></i>Working out.</li>
-                <li><i class="fas fa-user-friends fa-fw"></i>Hanging out with friends.</li>
-                <li><i class="fas fa-gamepad fa-fw"></i>Gaming.</li>
-                <li><i class="fas fa-plane fa-fw"></i>Traveling.</li>
-            </ul>
+    </div>
+    <div id="about-me" class="about-me pad-5 flex column space-around">
+        <div class="about-me-title flex center">
+            <p>About <b class="pink">me</b>.</p>
+        </div>
+        <div class="about-me-content flex row">
+            <div class="aboutme-left flex column center">
+                <h2>Hi, I'm Christian Meiner.</h2>
+                <p>
+                    I'm a 24 year old Front End Developer student born and raised in Borås, Sweden.
+                    After taking a stray course of Web Development in the early months of 2020 I quickly came to the
+                    realization
+                    that this is what I want to do with my life.
+                    Other than my burning interest for anything tech related I have a few hobbies that I love pouring a
+                    bunch of
+                    time into.
+                </p>
+                <p>
+                    I'd like to consider myself a fast learner as well as a hard worker and I often find myself pouring my
+                    heart
+                    and soul into what ever I find interest in.
+                    If you'd like to get to know me even better, feel free to contact me below.
+                </p>
+            </div>
+            <div class="aboutme-right flex column center">
+                <img src="./resources/about-me-pic.png" alt="me in the mountains">
+                <ul>
+                    <h3>Some of my interests include: </h3>
+                    <li><i class="fas fa-utensils fa-fw"></i>Cooking and especially eating food.</li>
+                    <li><i class="fas fa-dumbbell fa-fw"></i>Working out.</li>
+                    <li><i class="fas fa-user-friends fa-fw"></i>Hanging out with friends.</li>
+                    <li><i class="fas fa-gamepad fa-fw"></i>Gaming.</li>
+                    <li><i class="fas fa-plane fa-fw"></i>Traveling.</li>
+                </ul>
+            </div>
         </div>
 
     </div>
     <div id="contact" class="contact pad-5 flex column">
-        <div class="contact-title">
+        <div class="contact-title flex justify-center">
             <p> Contact me <b>below</b>.</p>
         </div>
-        <div class="contact-content">
+        <div class="contact-content flex justify-center">
             <div class="contact-form"> 
                 <form action="">
-                    <fieldset>
                         <div class="form-field">
                             <input type="text" name="contact-name" placeholder="Name">
                         </div>
@@ -139,7 +149,6 @@
                         <div class="form-field">
                             <button>Send</button>
                         </div>
-                    </fieldset>
                 </form>
             </div>
             <div class="contact-info">
