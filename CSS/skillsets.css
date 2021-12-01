@@ -1,9 +1,6 @@
 .skillsets {
     font-family: 'Inter', sans-serif;
 }
-.skillset-text {
-    color: #EEAACC;
-}
 
 .skillsets {
     background-color: #171717;
@@ -13,26 +10,30 @@
     font-size: 3rem;
     margin-bottom: 2rem;
 }
+
 .skillsets-left-side {
     width: 50%;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
+
 .skillsets-right-side {
     width: 45%;
 }
+
 label {
-    margin-top: 1rem;
+    margin: .8rem 0;
 }
+
 progress {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    height: 1.5rem;
+    height: 3rem;
 }
 
-.skilsets-filler-content {
-    width: 50%;
+.skillsets-filler-content {
+    width: 70%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 1.8rem;
 }

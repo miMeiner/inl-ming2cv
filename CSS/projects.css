@@ -2,13 +2,18 @@
     background-color: blue;
 }
 
-.projects-title i {
-    color:#EEAACC;
+.projects-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.projects-title p {
+    text-align: center;
 }
 
 .projects-first-row img {
-    width: 400px;
+    width: 30%;
+    margin-bottom: 3rem;
 }
 .projects-second-row img {
-    width: 400px;
+    width: 30%;
 }

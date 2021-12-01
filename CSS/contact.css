@@ -1,7 +1,20 @@
 .contact {
-    background-color: grey;
+    background-color: #171717;
 }
-
 .contact b {
     color: #EEAACC;
+}
+
+.contact-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-content {
+
+}
+input, button {
+    height: 5rem;
+    width: 30rem;
+    background-color: none;
 }

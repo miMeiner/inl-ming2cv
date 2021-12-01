@@ -1,18 +1,36 @@
 .about-me {
     background-color: #171717;
 }
+
+
+
+
+.about-me-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
 .aboutme-right {
    width: 50%;
 }
-.aboutme-left {
-    width: 40%;
+
+.aboutme-right img {
+    width: 100%;
+    border: 3px solid #89CFF0;
+    margin-bottom: 2rem;
 }
+.aboutme-left {
+}
+
 .aboutme-left p {
     margin: 1rem 0;
- }
+}
 
- .aboutme-left h2 {
- }
+.about-m
+
+li {
+    list-style-type: none;
+}
 
 i {
     margin-right: 1rem;
