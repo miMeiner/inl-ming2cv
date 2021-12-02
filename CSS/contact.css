@@ -1,3 +1,4 @@
+/* GENERAL STYLING FOR THE CONTACT PAGE */
 .contact b {
     color: #EEAACC;
 }
@@ -8,6 +9,7 @@
     text-align: center;
 }
 
+/* FORMATTING FOR ALL OF THE ELEMENTS IN THE FORM. */
 input, textarea, button {
     font-family: 'Libre Baskerville', serif;
     min-height: 5rem;
@@ -23,7 +25,7 @@ input, textarea, button {
 button {
     border-radius: 5px;
 }
-
+/* PUTS THE BORDER ON THE FORM TO MAKE IT STAND OUT A LITTLE MORE. */
 fieldset {
     padding: 1rem;
     border: 2px solid #89CFF0 ;
@@ -38,7 +40,6 @@ fieldset {
 button:hover {
     cursor: pointer;
 }
-
 
 @media screen and (max-width: 600px) {
     .contact {

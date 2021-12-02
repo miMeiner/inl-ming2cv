@@ -10,7 +10,7 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
-
+/* GENERAL STYLING FOR THE BACKGROUND AND BODY. */
 body {
     font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
@@ -25,7 +25,7 @@ body {
     color: #89CFF0;
 
 }
-
+/* STYLING FOR THE FIRST PAGE THE VISITOR SEES. */
 .front-page {
     height: 100vh;
     margin: auto;
@@ -54,7 +54,7 @@ body {
 .front-page-buttons {
     margin-top: 8rem;
 }
-
+/* GIVE THE A-LINKS ON THE FRONT PAGE THAT BUTTON LOOK. */
 .front-page-buttons a {
     font-size:2rem;
     color: #89CFF0;
@@ -87,7 +87,7 @@ footer {
     border-radius: 25px;
     padding: .5rem 2rem;
 }
-
+/* FORMATTING FOR THE ARROW TO GO BACK UP. */
 .back-to-top a {
     font-size: 2rem;
     color: #89CFF0;
@@ -95,7 +95,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
-
+/* GIVE THE BODY MORE SPACE ON THE SCREEN AS IT'S GETTING SMALLER. */
 @media screen and (max-width: 1800px) {
     body {
         width: 80vw;
@@ -121,6 +121,8 @@ footer {
     }
 }
 
+/* MQ TO MAKE SURE THAT ELEMENTS ACT AS THEY 
+SHOULD AS THE SCREENS SIZE IS GETTING SMALLER */
 @media screen and (max-width: 1300px) {
     body {
         width: 100vw;
@@ -162,13 +164,15 @@ footer {
         margin-top: 2rem;
     }
 }
-
+/* HIDES THE BUTTON TO SCROLL TO THE TOP BECAUSE AT THIS POINT
+THE USER IS MOST LIKELY ON A TABLET OR PHONE AND WILL THEREFOR BE ABLE
+TO JUST TAP THE TOP OF THE SCREEN TO GO TO THE TOP */
 @media screen and (max-width: 700px) {
     .back-to-top {
         display: none;
     }
 }
-
+/* MQ FOR PHONES AND TINY SCREENS */
 @media screen and (max-width: 600px) {
     footer {
         width: 90%;

@@ -23,11 +23,13 @@
 </head>
 
 <body>
+    <!-- FRONT PAGE WITH LINKS AND PICTURE -->
     <div id="front-page" class=" front-page pad-5 flex center">
         <div class="front-page-top flex space-between align-center">
             <div class="hello-text flex column">
                 <p><b class="pink">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
                     I am a Front End Developer based in Borås, <b>Sweden</b>. </p>
+                    <!-- BUTTONS TO NAVIGATE DOWN IN THE DOCUMENT -->
                 <div class="front-page-buttons flex space-evenly">
                     <a onclick="skillScroll()">Skill sets</a>
                     <a onclick="projectScroll()">Projects</a>
@@ -37,6 +39,7 @@
             </div>
             <div class="profile-pic-div flex column center">
                 <img class="profile-picture" src="./resources/selfiesq.png" alt="picture of me">
+                <!-- LINKS TO MY SOCIALS. UNSURE WETHER OR NOT THESE WILL STAY LATER ON -->
                 <div class="link-icons">
                     <a href="https://github.com/miMeiner" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/christianmeiner/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -46,6 +49,7 @@
             </div>
         </div>
     </div>
+    <!-- WHAT SKILLS I POSSESS AND A BIT ABOUT MY EDUCATION  -->
     <div id="skillsets" class=" skillsets pad-5">
         <div class="skillsets-title flex justify-center">
             <p>What <b class="pink">skill sets</b> do I have to offer? </p>
@@ -58,6 +62,7 @@
                     an asset to any team I end up taking part of.
                 </p>
             </div>
+            <!-- NEW TYPE OF ELEMENT THAT I'VE NEVER USED BEFORE 'PROGRESS' -->
             <div class="skillsets-right-side flex column">
                 <label for="html5">HTML5</label>
                 <progress id="html5" value="90" max="100">90%</progress>
@@ -69,16 +74,19 @@
                 <progress id="uiux" value="80" max="100">80%</progress>
             </div>
         </div>
+        <!-- MOSTLY SOME FILLER CONTENT TO DO JUST THAT, FILL UP THE SKILL SET PAGE -->
         <div class="skillsets-filler-content flex justify-center ">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum commodi corporis nihil perspiciatis
                 voluptates quae dolorem fugit, incidunt quos iure quidem tenetur rem praesentium delectus numquam! Ab
                 dignissimos ex error.</p>
         </div>
     </div>
+    <!-- INFO AND SHOWCASE ABOUT THE PROJECTS I'VE DONE IN THE PAST. CURRENTLY ONLY PLACEHOLDERS -->
     <div id="projects" class=" projects pad-5 ">
         <div class="projects-title flex justify-center">
             <p>Some of my previous <i class="pink">projects.</i></p>
         </div>
+        <!-- THE PICTURES BELOW ARE JUST AN ASSORTMENT OF MY FAVORITE WEBSITES NOT ACTUAL PROJECTS -->
         <div class="projects-row flex space-around ">
             <img src="./resources/gymshark.png" alt="gymshark">
             <img src="./resources/inet.png" alt="inet">
@@ -93,6 +101,7 @@
             <p>In the spots above is where I will put all my proud achievements and projects in the future. </p>
         </div>
     </div>
+    <!-- A BIT MORE ABOUT ME AND WHAT I LIKE -->
     <div id="about-me" class=" about-me pad-5 flex column space-around ">
         <div class="about-me-title flex center">
             <p>More <b class="pink">about</b> me</b>.</p>
@@ -119,6 +128,7 @@
             </div>
             <div class="aboutme-right flex column center ">
                 <img src="./resources/about-me-pic.png" alt="me in the mountains">
+                <!-- ICONS FROM FONT AWESOME REPRESENTING MY INTEREST AND HOBBIES -->
                 <ul>
                     <h3>Some of my interests include: </h3>
                     <li><i class="fas fa-utensils fa-fw"></i>Cooking and especially eating food.</li>
@@ -129,14 +139,15 @@
                 </ul>
             </div>
         </div>
-
     </div>
+    <!-- A CONTACT FORM IF THE VISITOR WOULD LIKE TO GET IN TOUCH WITH ME -->
     <div id="contact" class=" contact pad-5 flex column center ">
         <div class="contact-title flex justify-center">
             <p>Contact me <b>below</b>.</p>
         </div>
         <div class="contact-content flex justify-center">
             <div class="contact-form">
+                <!-- THE FORM BELOW USES AN EXTERNAL SERVICE TO COLLECT THE DATA IN THE FORM -->
                 <form autocomplete="off" action="https://getform.io/f/4b8dcc23-e0e0-4100-88bf-6adb87fcf607"
                     method="POST">
                     <fieldset>
@@ -167,6 +178,7 @@
                 © Christian Meiner 2021.
             </p>
         </div>
+        <!-- BUTTON THAT IS VISIBLE AT ALL TIMES ON THE SCREEN TO TAKE YOU BACK TO THE FRONT PAGE -->
         <div class="back-to-top">
             <a onclick="topScroll()">
                 <i class="fas fa-arrow-up"></i>

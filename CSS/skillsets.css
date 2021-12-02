@@ -1,3 +1,4 @@
+/* FORMATTING FOR THE SKILL SETS PAGE. */
 .skillsets {
     font-family: 'Inter', sans-serif;
     background-color: #171717;
@@ -21,7 +22,7 @@
 label {
     margin: .8rem 0;
 }
-
+/* THE *-APPEARANCE DECLARATION ALLOWS ME TO CHANGE THE <progress> ELEMENT. */
 progress {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -36,6 +37,7 @@ progress {
     font-size: 1.8rem;
 }
 
+/* GENERAL STYLING TO MAKE SURE THAT THE TEXT IS REASONABLE SIZE COMPARED TO THE SCREEN. */
 @media screen and (max-width: 900px) {
     .skillsets-left-side {
         font-size: 1.6rem;
@@ -47,7 +49,7 @@ progress {
 }
 
 
-
+/* MQ FOR PHONES AND TINY SCREENS. */
 @media screen and (max-width: 600px) {
     .skillsets-title {
         font-size: 2rem;

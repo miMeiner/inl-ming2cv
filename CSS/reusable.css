@@ -1,5 +1,5 @@
 
-/*REUSABLE CLASSES*/
+/* REUSABLE CLASSES. */
 .flex {display: flex;}
 .justify-center {justify-content: center;}
 .space-evenly {justify-content: space-evenly;}
@@ -23,7 +23,8 @@
         padding: 3rem;
     }
 }
-   
+
+/* MQ FOR PHONES AND TINY SCREENS */
 @media screen and (max-width: 600px) {
     .pad-5 {
         padding: 1rem;
