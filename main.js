@@ -19,3 +19,7 @@ function contactScroll() {
     let element = document.getElementById('contact');
     element.scrollIntoView({ behavior: "smooth" });
 }
+function topScroll() {
+    let element = document.getElementById('front-page');
+    element.scrollIntoView({ behavior: "smooth" });
+}
