@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./CSS/aboutme.css">
     <link rel="stylesheet" href="./CSS/contact.css">
     <link rel="stylesheet" href="./CSS/reusable.css">
+    <link rel="stylesheet" href="./CSS/animations.css">
     <script src="https://kit.fontawesome.com/1f25592f3c.js" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,25 +21,27 @@
         rel="stylesheet">
     <title>Christian's CV</title>
 </head>
+
 <body>
     <div id="front-page" class="scroll front-page pad-5 flex center">
         <div class="front-page-top flex space-between align-center">
             <div class="hello-text flex column">
                 <p><b class="pink">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
                     I am a Front End Developer based in Borås, <b>Sweden</b>. </p>
-                    <div class="front-page-buttons flex space-evenly">
-                        <a href="#skillsets">Skill sets</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#about-me">About me</a>
-                        <a href="#contact">Contact</a>
-                    </div>
+                <div class="front-page-buttons flex space-evenly">
+                    <a onclick="skillScroll()">Skill sets</a>
+                    <a onclick="projectScroll()">Projects</a>
+                    <a onclick="aboutScroll()">About me</a>
+                    <a onclick="contactScroll()">Contact</a>
+                </div>
             </div>
             <div class="profile-pic-div flex column center">
                 <img class="profile-picture" src="./resources/selfiesq.png" alt="picture of me">
                 <div class="link-icons">
                     <a href="https://github.com/miMeiner"><i class="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/christianmeiner/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.snapchat.com/add/chrillis?share_id=QThBRDY5&locale=sv_US"><i class="fab fa-snapchat"></i></a>
+                    <a href="https://www.snapchat.com/add/chrillis?share_id=QThBRDY5&locale=sv_US"><i
+                            class="fab fa-snapchat"></i></a>
                 </div>
             </div>
         </div>
@@ -73,7 +76,7 @@
         </div>
     </div>
     <div id="projects" class="scroll projects pad-5 ">
-        <div class="projects-title flex justify-center"> 
+        <div class="projects-title flex justify-center">
             <p>Some of my previous <i class="pink">projects.</i></p>
         </div>
         <div class="projects-row flex space-around ">
@@ -107,7 +110,8 @@
                     time into.
                 </p>
                 <p>
-                    I'd like to consider myself a fast learner as well as a hard worker and I often find myself pouring my
+                    I'd like to consider myself a fast learner as well as a hard worker and I often find myself pouring
+                    my
                     heart
                     and soul into what ever I find interest in.
                     If you'd like to get to know me even better, feel free to contact me below.
@@ -132,8 +136,9 @@
             <p>Contact me <b>below</b>.</p>
         </div>
         <div class="contact-content flex justify-center">
-            <div class="contact-form"> 
-                <form autocomplete="off" action="https://getform.io/f/4b8dcc23-e0e0-4100-88bf-6adb87fcf607" method="POST">
+            <div class="contact-form">
+                <form autocomplete="off" action="https://getform.io/f/4b8dcc23-e0e0-4100-88bf-6adb87fcf607"
+                    method="POST">
                     <fieldset>
                         <div class="form-field">
                             <input type="text" name="contact-name" placeholder="Name">
@@ -158,9 +163,9 @@
     <footer>
         <div class="footer-content flex justify-center space-evenly">
             <a href="mailto:Christian.Meiner@medieinstitutet.se">Christian.Meiner@medieinstitutet.se</a>
-          <p class="pink">
-              © Christian Meiner 2021.
-            </p> 
+            <p class="pink">
+                © Christian Meiner 2021.
+            </p>
         </div>
         <div class="back-to-top">
             <a href="#front-page">
@@ -169,4 +174,5 @@
         </div>
     </footer>
 </body>
+
 </html>
