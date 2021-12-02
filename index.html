@@ -19,6 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Christian's CV</title>
 </head>
 
@@ -29,7 +30,7 @@
             <div class="hello-text flex column">
                 <p><b class="pink">Hello</b>! <br> This is me, <b>Christian Meiner</b>. <br>
                     I am a Front End Developer based in Borås, <b>Sweden</b>. </p>
-                    <!-- BUTTONS TO NAVIGATE DOWN IN THE DOCUMENT -->
+                <!-- BUTTONS TO NAVIGATE DOWN IN THE DOCUMENT -->
                 <div class="front-page-buttons flex space-evenly">
                     <a onclick="skillScroll()">Skill sets</a>
                     <a onclick="projectScroll()">Projects</a>
@@ -42,7 +43,8 @@
                 <!-- LINKS TO MY SOCIALS. UNSURE WETHER OR NOT THESE WILL STAY LATER ON -->
                 <div class="link-icons">
                     <a href="https://github.com/miMeiner" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/christianmeiner/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/christianmeiner/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
                     <a href="https://www.snapchat.com/add/chrillis?share_id=QThBRDY5&locale=sv_US" target="_blank"><i
                             class="fab fa-snapchat"></i></a>
                 </div>
@@ -50,12 +52,12 @@
         </div>
     </div>
     <!-- WHAT SKILLS I POSSESS AND A BIT ABOUT MY EDUCATION  -->
-    <div id="skillsets" class=" skillsets pad-5">
+    <div data-aos="fade-in"id="skillsets" class=" skillsets pad-5">
         <div class="skillsets-title flex justify-center">
             <p>What <b class="pink">skill sets</b> do I have to offer? </p>
         </div>
         <div class="skillsets-main-content flex space-between ">
-            <div class="skillsets-left-side flex align-center">
+            <div data-aos="slide-right" class="skillsets-left-side flex align-center">
                 <p>
                     Being a first year student of Front End Development my skill sets are somewhat limited.
                     However, since I am very ambitious and consider myself a fast learner I have no doubt that I will be
@@ -63,7 +65,7 @@
                 </p>
             </div>
             <!-- NEW TYPE OF ELEMENT THAT I'VE NEVER USED BEFORE 'PROGRESS' -->
-            <div class="skillsets-right-side flex column">
+            <div data-aos="slide-left" class="skillsets-right-side flex column">
                 <label for="html5">HTML5</label>
                 <progress id="html5" value="90" max="100">90%</progress>
                 <label for="css3">CSS3</label>
@@ -75,39 +77,39 @@
             </div>
         </div>
         <!-- MOSTLY SOME FILLER CONTENT TO DO JUST THAT, FILL UP THE SKILL SET PAGE -->
-        <div class="skillsets-filler-content flex justify-center ">
+        <div data-aos="fade-in" class="skillsets-filler-content flex justify-center ">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum commodi corporis nihil perspiciatis
                 voluptates quae dolorem fugit, incidunt quos iure quidem tenetur rem praesentium delectus numquam! Ab
                 dignissimos ex error.</p>
         </div>
     </div>
     <!-- INFO AND SHOWCASE ABOUT THE PROJECTS I'VE DONE IN THE PAST. CURRENTLY ONLY PLACEHOLDERS -->
-    <div id="projects" class=" projects pad-5 ">
+    <div data-aos ="fade-in" id="projects" class=" projects pad-5 ">
         <div class="projects-title flex justify-center">
             <p>Some of my previous <i class="pink">projects.</i></p>
         </div>
         <!-- THE PICTURES BELOW ARE JUST AN ASSORTMENT OF MY FAVORITE WEBSITES NOT ACTUAL PROJECTS -->
         <div class="projects-row flex space-around ">
-            <img src="./resources/gymshark.png" alt="gymshark">
-            <img src="./resources/inet.png" alt="inet">
-            <img src="./resources/discord.png" alt="discord">
+            <img data-aos="slide-right" src="./resources/gymshark.png" alt="gymshark">
+            <img data-aos="slide-up" src="./resources/inet.png" alt="inet">
+            <img data-aos="slide-left" src="./resources/discord.png" alt="discord">
         </div>
         <div class="projects-row flex space-around ">
-            <img src="./resources/outnorth.png" alt="outnorth">
-            <img src="./resources/netflix.png" alt="netflix">
-            <img src="./resources/spotify.png" alt="spotify">
+            <img data-aos="slide-right" src="./resources/outnorth.png" alt="outnorth">
+            <img data-aos="slide-up" src="./resources/netflix.png" alt="netflix">
+            <img data-aos="slide-left" src="./resources/spotify.png" alt="spotify">
         </div>
-        <div class="projects-info flex justify-center ">
+        <div data-aos="fade-in" class="projects-info flex justify-center ">
             <p>In the spots above is where I will put all my proud achievements and projects in the future. </p>
         </div>
     </div>
     <!-- A BIT MORE ABOUT ME AND WHAT I LIKE -->
-    <div id="about-me" class=" about-me pad-5 flex column space-around ">
+    <div data-aos="fade-in" id="about-me" class=" about-me pad-5 flex column space-around ">
         <div class="about-me-title flex center">
             <p>More <b class="pink">about</b> me</b>.</p>
         </div>
         <div class="about-me-content flex space-evenly">
-            <div class="aboutme-left flex column ">
+            <div data-aos="slide-right" class="aboutme-left flex column ">
                 <h2>Hi, I'm<span class="pink"> Christian Meiner</span>.</h2>
                 <p>
                     I'm a 24 year old Front End Developer student born and raised in Borås, Sweden.
@@ -127,9 +129,9 @@
                 </p>
             </div>
             <div class="aboutme-right flex column center ">
-                <img src="./resources/about-me-pic.png" alt="me in the mountains">
+                <img data-aos="slide-up" src="./resources/about-me-pic.png" alt="me in the mountains">
                 <!-- ICONS FROM FONT AWESOME REPRESENTING MY INTEREST AND HOBBIES -->
-                <ul>
+                <ul data-aos="slide-left">
                     <h3>Some of my interests include: </h3>
                     <li><i class="fas fa-utensils fa-fw"></i>Cooking and especially eating food.</li>
                     <li><i class="fas fa-dumbbell fa-fw"></i>Working out.</li>
@@ -141,12 +143,12 @@
         </div>
     </div>
     <!-- A CONTACT FORM IF THE VISITOR WOULD LIKE TO GET IN TOUCH WITH ME -->
-    <div id="contact" class=" contact pad-5 flex column center ">
-        <div class="contact-title flex justify-center">
+    <div data-aos="fade-in" id="contact" class=" contact pad-5 flex column center ">
+        <div data-aos="fade-in" class="contact-title flex justify-center">
             <p>Contact me <b>below</b>.</p>
         </div>
         <div class="contact-content flex justify-center">
-            <div class="contact-form">
+            <div data-aos="fade-in" class="contact-form">
                 <!-- THE FORM BELOW USES AN EXTERNAL SERVICE TO COLLECT THE DATA IN THE FORM -->
                 <form autocomplete="off" action="https://getform.io/f/4b8dcc23-e0e0-4100-88bf-6adb87fcf607"
                     method="POST">
@@ -179,12 +181,16 @@
             </p>
         </div>
         <!-- BUTTON THAT IS VISIBLE AT ALL TIMES ON THE SCREEN TO TAKE YOU BACK TO THE FRONT PAGE -->
-        <div class="back-to-top">
+        <div data-aos="fade-in" class="back-to-top">
             <a onclick="topScroll()">
                 <i class="fas fa-arrow-up"></i>
             </a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

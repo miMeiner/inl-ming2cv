@@ -10,6 +10,7 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+
 /* GENERAL STYLING FOR THE BACKGROUND AND BODY. */
 body {
     font-family: 'Libre Baskerville', serif;
@@ -23,8 +24,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #89CFF0;
-
 }
+
 /* STYLING FOR THE FIRST PAGE THE VISITOR SEES. */
 .front-page {
     height: 100vh;
@@ -54,6 +55,7 @@ body {
 .front-page-buttons {
     margin-top: 8rem;
 }
+
 /* GIVE THE A-LINKS ON THE FRONT PAGE THAT BUTTON LOOK. */
 .front-page-buttons a {
     font-size:2rem;
@@ -87,6 +89,7 @@ footer {
     border-radius: 25px;
     padding: .5rem 2rem;
 }
+
 /* FORMATTING FOR THE ARROW TO GO BACK UP. */
 .back-to-top a {
     font-size: 2rem;
@@ -95,6 +98,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* GIVE THE BODY MORE SPACE ON THE SCREEN AS IT'S GETTING SMALLER. */
 @media screen and (max-width: 1800px) {
     body {
@@ -108,7 +112,7 @@ footer {
         border: #89CFF0 solid 3px;
     }
     .back-to-top {
-        right: 4%;
+        right: 2%;
         border: 4px solid #89CFF0;
     }
 } 
@@ -117,13 +121,12 @@ footer {
     .front-page-buttons a {
         font-size: 1rem;
         border: #89CFF0 solid 2px;
-
     }
 }
 
 /* MQ TO MAKE SURE THAT ELEMENTS ACT AS THEY 
 SHOULD AS THE SCREENS SIZE IS GETTING SMALLER */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
     body {
         width: 100vw;
     }
@@ -156,7 +159,7 @@ SHOULD AS THE SCREENS SIZE IS GETTING SMALLER */
         bottom: 0;
         right: 0;
         border: 4px solid #89CFF0;
-        padding: .5rem 1.5rem;
+        padding: .5rem 1rem;
     }
     .footer-content {
         flex-direction: column;
@@ -164,6 +167,7 @@ SHOULD AS THE SCREENS SIZE IS GETTING SMALLER */
         margin-top: 2rem;
     }
 }
+
 /* HIDES THE BUTTON TO SCROLL TO THE TOP BECAUSE AT THIS POINT
 THE USER IS MOST LIKELY ON A TABLET OR PHONE AND WILL THEREFOR BE ABLE
 TO JUST TAP THE TOP OF THE SCREEN TO GO TO THE TOP */
@@ -172,6 +176,7 @@ TO JUST TAP THE TOP OF THE SCREEN TO GO TO THE TOP */
         display: none;
     }
 }
+
 /* MQ FOR PHONES AND TINY SCREENS */
 @media screen and (max-width: 600px) {
     footer {
