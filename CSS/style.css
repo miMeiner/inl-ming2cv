@@ -88,6 +88,7 @@ footer {
     border: 6px solid #89CFF0;
     border-radius: 25px;
     padding: .5rem 2rem;
+    cursor: pointer;
 }
 
 /* FORMATTING FOR THE ARROW TO GO BACK UP. */
@@ -96,7 +97,6 @@ footer {
     color: #89CFF0;
     text-align: center;
     text-decoration: none;
-    cursor: pointer;
 }
 
 /* GIVE THE BODY MORE SPACE ON THE SCREEN AS IT'S GETTING SMALLER. */
