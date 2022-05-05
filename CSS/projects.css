@@ -20,6 +20,11 @@
     margin-bottom: 1.2rem;
 }
 
+.projects-row a {
+    display: hidden;
+}
+
+
 .hidden {
     display: none;
     text-align: center;
@@ -34,6 +39,7 @@
 
 .img-obj:hover > .hidden {
     display: block;
+    cursor: pointer;
 }
 
 .img-obj img {
@@ -41,6 +47,7 @@
 }
 .img-obj:hover img {
     filter:blur(5px) grayscale(.5);
+    cursor: pointer;
 }
 
 .projects-info {

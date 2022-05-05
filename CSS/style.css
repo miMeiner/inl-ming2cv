@@ -84,19 +84,21 @@ footer {
 .back-to-top {
     position: fixed;
     bottom: 1%;
-    right: 5%;
-    border: 6px solid #89CFF0;
-    border-radius: 25px;
-    padding: .5rem 2rem;
+    right: 7%;
+    border: 3px solid #89CFF0;
+    background-color: #89CFF0;
+    border-radius: 10px;
+    padding: .5rem 1rem;
     cursor: pointer;
 }
 
 /* FORMATTING FOR THE ARROW TO GO BACK UP. */
 .back-to-top i {
     font-size: 2rem;
-    color: #89CFF0;
+    color: black;
     text-align: center;
     text-decoration: none;
+    
 }
 
 /* GIVE THE BODY MORE SPACE ON THE SCREEN AS IT'S GETTING SMALLER. */
